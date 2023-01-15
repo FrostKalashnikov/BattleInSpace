@@ -1,0 +1,164 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Providers/RuntimeMeshProviderStatic.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class URuntimeMeshModifier;
+enum class ERuntimeMeshUpdateFrequency : uint8;
+struct FLinearColor;
+struct FRuntimeMeshCollisionData;
+struct FRuntimeMeshCollisionSettings;
+struct FRuntimeMeshRenderableMeshData;
+struct FRuntimeMeshSectionProperties;
+struct FRuntimeMeshTangent;
+#ifdef RUNTIMEMESHCOMPONENT_RuntimeMeshProviderStatic_generated_h
+#error "RuntimeMeshProviderStatic.generated.h already included, missing '#pragma once' in RuntimeMeshProviderStatic.h"
+#endif
+#define RUNTIMEMESHCOMPONENT_RuntimeMeshProviderStatic_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetShouldSerializeMeshData); \
+	DECLARE_FUNCTION(execGetSectionRenderDataAndClear); \
+	DECLARE_FUNCTION(execGetSectionRenderData); \
+	DECLARE_FUNCTION(execGetSectionProperties); \
+	DECLARE_FUNCTION(execGetSectionBounds); \
+	DECLARE_FUNCTION(execRemoveAllSectionsForLOD); \
+	DECLARE_FUNCTION(execDoesSectionHaveValidMeshData); \
+	DECLARE_FUNCTION(execGetLastSectionId); \
+	DECLARE_FUNCTION(execGetSectionIds); \
+	DECLARE_FUNCTION(execSetRenderableSectionAffectsCollision); \
+	DECLARE_FUNCTION(execGetSectionsForMeshCollision); \
+	DECLARE_FUNCTION(execSetRenderableLODForCollision); \
+	DECLARE_FUNCTION(execGetLODForMeshCollision); \
+	DECLARE_FUNCTION(execSetCollisionMesh); \
+	DECLARE_FUNCTION(execGetCollisionMeshStatic); \
+	DECLARE_FUNCTION(execSetCollisionSettings); \
+	DECLARE_FUNCTION(execGetCollisionSettingsStatic); \
+	DECLARE_FUNCTION(execUpdateSectionFromComponents); \
+	DECLARE_FUNCTION(execCreateSectionFromComponents); \
+	DECLARE_FUNCTION(execUpdateSection_Blueprint); \
+	DECLARE_FUNCTION(execCreateSection_Blueprint); \
+	DECLARE_FUNCTION(execClearAllLODsForSection); \
+	DECLARE_FUNCTION(execUnRegisterModifier); \
+	DECLARE_FUNCTION(execRegisterModifier);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetShouldSerializeMeshData); \
+	DECLARE_FUNCTION(execGetSectionRenderDataAndClear); \
+	DECLARE_FUNCTION(execGetSectionRenderData); \
+	DECLARE_FUNCTION(execGetSectionProperties); \
+	DECLARE_FUNCTION(execGetSectionBounds); \
+	DECLARE_FUNCTION(execRemoveAllSectionsForLOD); \
+	DECLARE_FUNCTION(execDoesSectionHaveValidMeshData); \
+	DECLARE_FUNCTION(execGetLastSectionId); \
+	DECLARE_FUNCTION(execGetSectionIds); \
+	DECLARE_FUNCTION(execSetRenderableSectionAffectsCollision); \
+	DECLARE_FUNCTION(execGetSectionsForMeshCollision); \
+	DECLARE_FUNCTION(execSetRenderableLODForCollision); \
+	DECLARE_FUNCTION(execGetLODForMeshCollision); \
+	DECLARE_FUNCTION(execSetCollisionMesh); \
+	DECLARE_FUNCTION(execGetCollisionMeshStatic); \
+	DECLARE_FUNCTION(execSetCollisionSettings); \
+	DECLARE_FUNCTION(execGetCollisionSettingsStatic); \
+	DECLARE_FUNCTION(execUpdateSectionFromComponents); \
+	DECLARE_FUNCTION(execCreateSectionFromComponents); \
+	DECLARE_FUNCTION(execUpdateSection_Blueprint); \
+	DECLARE_FUNCTION(execCreateSection_Blueprint); \
+	DECLARE_FUNCTION(execClearAllLODsForSection); \
+	DECLARE_FUNCTION(execUnRegisterModifier); \
+	DECLARE_FUNCTION(execRegisterModifier);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(URuntimeMeshProviderStatic, NO_API)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURuntimeMeshProviderStatic(); \
+	friend struct Z_Construct_UClass_URuntimeMeshProviderStatic_Statics; \
+public: \
+	DECLARE_CLASS(URuntimeMeshProviderStatic, URuntimeMeshProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RuntimeMeshComponent"), NO_API) \
+	DECLARE_SERIALIZER(URuntimeMeshProviderStatic) \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_ARCHIVESERIALIZER
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_INCLASS \
+private: \
+	static void StaticRegisterNativesURuntimeMeshProviderStatic(); \
+	friend struct Z_Construct_UClass_URuntimeMeshProviderStatic_Statics; \
+public: \
+	DECLARE_CLASS(URuntimeMeshProviderStatic, URuntimeMeshProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RuntimeMeshComponent"), NO_API) \
+	DECLARE_SERIALIZER(URuntimeMeshProviderStatic) \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_ARCHIVESERIALIZER
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URuntimeMeshProviderStatic(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URuntimeMeshProviderStatic) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URuntimeMeshProviderStatic); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URuntimeMeshProviderStatic); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URuntimeMeshProviderStatic(URuntimeMeshProviderStatic&&); \
+	NO_API URuntimeMeshProviderStatic(const URuntimeMeshProviderStatic&); \
+public: \
+	NO_API virtual ~URuntimeMeshProviderStatic();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URuntimeMeshProviderStatic(URuntimeMeshProviderStatic&&); \
+	NO_API URuntimeMeshProviderStatic(const URuntimeMeshProviderStatic&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URuntimeMeshProviderStatic); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URuntimeMeshProviderStatic); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(URuntimeMeshProviderStatic) \
+	NO_API virtual ~URuntimeMeshProviderStatic();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_11_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h_14_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> RUNTIMEMESHCOMPONENT_API UClass* StaticClass<class URuntimeMeshProviderStatic>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ProceduralTerrainGenerator_Source_ThirdParty_RuntimeMeshComponent_Public_Providers_RuntimeMeshProviderStatic_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

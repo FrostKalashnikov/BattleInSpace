@@ -1,0 +1,10 @@
+{
+	"BuildId": "23058290",
+	"Modules": 
+	{
+		"FastNoiseLite": "UnrealEditor-FastNoiseLite.dll",
+		"ProceduralTerrainGenerator": "UnrealEditor-ProceduralTerrainGenerator.dll",
+		"ProceduralTerrainGeneratorEditor": "UnrealEditor-ProceduralTerrainGeneratorEditor.dll",
+		"RuntimeMeshComponent": "UnrealEditor-RuntimeMeshComponent.dll"
+	}
+}
